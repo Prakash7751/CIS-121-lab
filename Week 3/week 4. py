@@ -1,0 +1,11 @@
+larger = int(input("Enter larger number: "))
+smaller = int(input("Enter smaller number: "))
+
+count = 0
+while larger > smaller:
+    larger = larger / 2
+    count += 1
+
+print("Result:", count)
+
+

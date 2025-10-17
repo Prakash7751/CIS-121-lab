@@ -1,0 +1,8 @@
+#Write code to determine how many letter are in a word.
+word = 'hello world'
+
+count = 0
+for letter in word:
+    count += 1
+print(count)
+
